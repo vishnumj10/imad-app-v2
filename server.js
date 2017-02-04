@@ -13,6 +13,11 @@ app.get('/artone', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'artone.html'));
 });
 
+app.get('/arttwo', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'arttwo.html'));
+});
+
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
