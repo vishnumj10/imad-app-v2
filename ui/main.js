@@ -1,5 +1,5 @@
 console.log('Loaded!');
-var ob=document.getElementById('heading');
+var ob=document.getElementById('one');
 var marginLeft=0;
 function moveRight(){
     marginLeft=marginLeft+10;
