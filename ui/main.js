@@ -1,7 +1,8 @@
 console.log('Loaded!');
 var ob=document.getElementById('heading');
+var marginLeft=0;
 function moveRight(){
-    marginLeft=marginLeft+1;
+    marginLeft=marginLeft+10;
     ob.style.marginLeft=marginLeft+'px';
 }
 ob.onclick=function() {
