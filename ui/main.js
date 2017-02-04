@@ -1,5 +1,5 @@
 console.log('Loaded!');
-var ob=document.getElementById('one');
+var ob=document.getElementById('madi');
 var marginLeft=0;
 function moveRight(){
     marginLeft=marginLeft+10;
