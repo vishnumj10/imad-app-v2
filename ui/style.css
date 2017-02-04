@@ -20,3 +20,8 @@ body {
     height: 200px;
 }
 
+.box{
+    font-family:sans-serif;
+    background-color:white;
+    color:red;
+}
