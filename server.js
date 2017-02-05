@@ -18,7 +18,7 @@ app.get('/reg', function (req, res) {
     res.sent('registration over');
   else
     res.sent('registation sucess . ID is');
-    res.sent('stdid.tostring()');
+    res.sent(stdid.tostring());
     stdid=stdid+1;
 });
 
