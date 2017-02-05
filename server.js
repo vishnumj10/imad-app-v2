@@ -14,7 +14,12 @@ app.get('/artone', function (req, res) {
 });
 var stdid=1;
 app.get('/reg', function (req, res) {
-    res.sent(stdid.tostring());
+      if(stdid==10)
+    res.send('registration over');
+  else
+    res.send('registation sucess . ID is');
+    res.send(stdid.tostring());
+    stdid=stdid+1;
 });
 
 app.get('/arttwo', function (req, res) {
