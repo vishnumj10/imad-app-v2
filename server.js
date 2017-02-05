@@ -13,13 +13,12 @@ app.get('/artone', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'artone.html'));
 });
 var stdid=1;
-app.get('/reg', function (req, res) {
-      if(stdid==10)
+app.get('/reg', function (req, res) { stdid=stdid+1;
+      if(stdid>10)
     res.send('registration over');
   else
-    {res.send('registation sucess . ID is'+stdid.toString());
-    res.send('a');
-    stdid=stdid+1;}
+    res.send('registation sucess . ID is'+stdid.toString());
+    
 });
 
 app.get('/arttwo', function (req, res) {
