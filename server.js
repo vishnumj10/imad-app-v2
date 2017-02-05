@@ -12,7 +12,7 @@ app.get('/', function (req, res) {
 app.get('/artone', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'artone.html'));
 });
-stdid=1;
+var stdid=1;
 app.get('/reg', function (req, res) {
   if(stdid==10)
     res.sent('registration over');
