@@ -1,11 +1,11 @@
 console.log('Loaded!');
 
-var ob=document.getElementById('btn');
-var x=0;
+var ob=document.getElementById('counter');
+var counter=0;
 ob.onclick=function() {
-   x=x+1;
-   var span=document.getElementById('val');
-   span.innerHTML=x.toString();
+   counter=counter+1;
+   var span=document.getElementById('count');
+   span.innerHTML=counter.toString();
 };
 
 
