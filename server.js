@@ -14,7 +14,7 @@ app.get('/artone', function (req, res) {
 });
 stdid=1;
 app.get('/reg', function (req, res) {
-  if(stdid===10)
+  if(stdid==10)
     res.sent('registration over');
   else
     res.sent('registation sucess . ID is');
